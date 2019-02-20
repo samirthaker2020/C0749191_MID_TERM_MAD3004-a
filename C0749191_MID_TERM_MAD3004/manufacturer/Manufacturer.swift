@@ -11,17 +11,17 @@ import Foundation
 class Manufacturer:IDisplay
 {
     
-    var mfgid:Int?
+    var mfgid:String?
     var mfgname:String?
     
     init() {
-        self.mfgid=Int()
+        self.mfgid=String()
         self.mfgname=String()
-        <#statements#>
+        
     }
     
     func displaydata(msg: Bool, no: Int) {
-        <#code#>
+        
     }
     
     

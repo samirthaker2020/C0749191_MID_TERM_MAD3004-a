@@ -10,6 +10,7 @@
 		9B2E7601221E1A120041767D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E7600221E1A120041767D /* main.swift */; };
 		9B2E760E221E1DA80041767D /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E760D221E1DA80041767D /* IDisplay.swift */; };
 		9B2E7610221E1E7C0041767D /* Manufacturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E760F221E1E7C0041767D /* Manufacturer.swift */; };
+		9B2E7613221E1FD30041767D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E7612221E1FD30041767D /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		9B2E7600221E1A120041767D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9B2E760D221E1DA80041767D /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
 		9B2E760F221E1E7C0041767D /* Manufacturer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manufacturer.swift; sourceTree = "<group>"; };
+		9B2E7612221E1FD30041767D /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		9B2E75FF221E1A120041767D /* C0749191_MID_TERM_MAD3004 */ = {
 			isa = PBXGroup;
 			children = (
+				9B2E7611221E1FBC0041767D /* product */,
 				9B2E760C221E1D940041767D /* display */,
 				9B2E760B221E1D770041767D /* order */,
 				9B2E7609221E1D160041767D /* manufacturer */,
@@ -90,6 +93,14 @@
 				9B2E760D221E1DA80041767D /* IDisplay.swift */,
 			);
 			path = display;
+			sourceTree = "<group>";
+		};
+		9B2E7611221E1FBC0041767D /* product */ = {
+			isa = PBXGroup;
+			children = (
+				9B2E7612221E1FD30041767D /* Product.swift */,
+			);
+			path = product;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B2E760E221E1DA80041767D /* IDisplay.swift in Sources */,
+				9B2E7613221E1FD30041767D /* Product.swift in Sources */,
 				9B2E7601221E1A120041767D /* main.swift in Sources */,
 				9B2E7610221E1E7C0041767D /* Manufacturer.swift in Sources */,
 			);
