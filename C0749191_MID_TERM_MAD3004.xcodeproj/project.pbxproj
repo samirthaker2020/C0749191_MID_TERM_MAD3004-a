@@ -57,9 +57,25 @@
 		9B2E75FF221E1A120041767D /* C0749191_MID_TERM_MAD3004 */ = {
 			isa = PBXGroup;
 			children = (
+				9B2E7609221E1D160041767D /* manufacturer */,
+				9B2E7608221E1D020041767D /* display */,
 				9B2E7600221E1A120041767D /* main.swift */,
 			);
 			path = C0749191_MID_TERM_MAD3004;
+			sourceTree = "<group>";
+		};
+		9B2E7608221E1D020041767D /* display */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = display;
+			sourceTree = "<group>";
+		};
+		9B2E7609221E1D160041767D /* manufacturer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = manufacturer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
