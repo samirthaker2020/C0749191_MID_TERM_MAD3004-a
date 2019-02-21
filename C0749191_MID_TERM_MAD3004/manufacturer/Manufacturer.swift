@@ -10,6 +10,12 @@ import Foundation
 
 class Manufacturer:IDisplay
 {
+    func displaydata() {
+         print("")
+    }
+    
+   
+    
     
     var mfgid:String?
     var mfgname:String?
@@ -20,9 +26,6 @@ class Manufacturer:IDisplay
         
     }
     
-    func displaydata(msg: Bool, no: Int) {
-        
-    }
     
     
 }

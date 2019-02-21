@@ -10,5 +10,5 @@ import Foundation
 
 protocol IDisplay
     {
-        func displaydata(msg:Bool,no:Int)
+        func displaydata()
 }

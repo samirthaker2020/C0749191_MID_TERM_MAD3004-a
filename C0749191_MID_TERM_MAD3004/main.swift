@@ -9,28 +9,19 @@
 import Foundation
 
 
+var p1 = Product(pid: "P001", pname: "Hard Drive", price: 120.00,qty: 1)
+var p2 = Product(pid: "P002", pname: "ZIP drive", price: 90.00,qty: 1)
+var p3 = Product(pid: "P003", pname: "Floppy disk", price: 50.00,qty:1)
+var p4 = Product(pid: "P004", pname: "Monitor", price: 300.00,qty:1)
+var p5 = Product(pid: "P005", pname: "iPhone 7 Plus", price: 1200.00,qty:1)
 
-
-
-var n:Int?
-
-var check:Bool=false
-repeat{
-    print("Please select an option: \n1 - ADD \n2 - DISPLAY \n3 - Display \n 4.Exit")
-    n = Int(readLine()!)
-    
-    switch n{
-    case 1:
-        break
-    case 2:
-        break
-    case 3:
-       break
-    default:
-        break
-    }
-    
-    
-}
-    while(n! <= 4)
-
+p1.displaydata()
+print("--------------------")
+p2.displaydata()
+print("--------------------")
+p3.displaydata()
+print("--------------------")
+p4.displaydata()
+print("--------------------")
+p5.displaydata()
+print("--------------------")
