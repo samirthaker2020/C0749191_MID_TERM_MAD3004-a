@@ -12,7 +12,7 @@ class Order
 {
     var oderid:String?
     var orderdate:String?
-    var orderproduct = [String]()
+    var orderproduct = [Product]()
     var ototal:Double?
     
       var product = [String]()
@@ -37,24 +37,20 @@ class Order
         product.append("1200.00")
      
     }
+    
+    init(oderid:String,orderdate:String,orderproduct : [Product]) {
+        self.oderid=oderid
+        self.orderdate=orderdate
+        
+        self.orderproduct=orderproduct
+        
+    }
     func haveproduct() {
        
         
-        print("----------------------------")
-        print("PRODUCTS")
-        print("----------------------------")
-        var count:Int=0
-        for i in product
-        {
-            print(i)
-            if (count==2 || count==5 || count==8 || count==11)
-            {
-                print("----------------------------")
-            }
-            count+=1
-            
-        }
-        
+        print("Order ID::\(oderid!)")
+        print("Order ID::\(orderdate!)")
+        print("Order ID::\(orderproduct)")
     }
     func data(id:String)
     {
